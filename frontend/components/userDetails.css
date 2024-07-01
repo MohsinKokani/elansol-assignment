@@ -1,0 +1,80 @@
+.user-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  
+  .user-table thead th {
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .user-table tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table tbody td {
+    padding: 10px;
+    vertical-align: middle;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+  }
+  
+  .status.active::before {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+  }
+  
+  .status.inactive::before {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 5px;
+  }
+  
+  .status.suspended::before {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+  }
+  
+  .action-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .edit-btn {
+    color: blue;
+  }
+  
+  .delete-btn {
+    color: red;
+  }
+  

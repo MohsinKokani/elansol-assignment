@@ -1,0 +1,42 @@
+/* styles.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-item {
+    margin-left: 1rem;
+  }
+  
+  .user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .button.is-light {
+    background-color: white;
+    color: #333;
+  }
+  
+  .link-btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: white;
+  }
