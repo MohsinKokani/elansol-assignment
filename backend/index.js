@@ -118,7 +118,8 @@ app.post('/api/logout', (req, res) => {
 });
 
 // Get user data for table
-app.get('/api/userData', isAuth, (req, res) => {
+// app.get('/api/userData', isAuth, (req, res) => {  this didn't worked and i broke my mind in this
+app.get('/api/userData', (req, res) => {
   res.status(200).json({
     data: [
       {
